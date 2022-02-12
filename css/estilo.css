@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(0, 0, 0);    
+}
+
+.barr
+{
+    background-image: url('../img/perfil.jpg');
+    background-position: right center;
+    background-size:cover;
+    height: 660px;
+    border-top: 1px solid transparent;
+}
+
+.barr nav ul
+{
+    text-align: right;
+    margin: 10px 25px 0 0;
+}
+
+.barr nav li
+{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.barr nav a
+{
+    background: rgba(255, 255, 255, 0.3);
+    display: block;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.barr nav a:hover
+{
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.txt
+{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.txt p
+{
+    margin-top: 20px;
+}
+
+.barr h1
+{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow:3px 1px 1px rgb(68, 2, 2) ;
+}
+
+.barr p
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+main
+{
+    width: 90%;
+    margin: auto;
+}
+
+.cont
+{
+    background-color: rgb(95, 95, 95);
+    padding: 50px;
+    margin-top: 60px;
+    overflow: auto;
+}
+
+.card 
+{
+        width: 32%;
+        float: left;
+        box-sizing: border-box;
+}
+.card  img
+{
+    width: 100%;
+    font-display: block;
+}
+
+.cont1
+{
+    border-bottom: solid 2px rgb(0, 0, 0);
+	padding: 10px;
+	background: white;
+}
+
+.card-1
+{
+    margin-right: 1%;
+}
+.card-2
+{
+    margin-left: 1%;
+}
+.card p{
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+.cont1  h2
+{
+    margin:0;
+}
+ .texto1
+{
+   margin-top: 10px;
+}
+
+
+.rodape
+{
+    height: 25px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: #0a0a0a;
+    padding-top: 10px;
+    margin-top: 15px;
+ 
+}
